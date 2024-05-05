@@ -3,14 +3,14 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     font-size: small;
-    height: -webkit-fill-availble;
+    
 }
 
 body{
     text-align: center;
     font-size: x-large;
     height: 100vh;
-    height: -webkit-fill-availble;
+    
 
 }
 
@@ -94,5 +94,36 @@ a:active{
     padding-bottom: 200px;
 }
 
+@media only screen and (max-width: 400px){
 
+    body{
+        text-align: center;
+        font-size: large;
+        height: 90%;
+        width: 90%;
+        
+    
+    }
+    
+    .mainlogo{
+        display: block;
+        justify-content: center;
+        margin-top: 175px;
+        margin-left: 40px;
+        margin-right: auto;
+        width: 90%;
+        height: 90%;
+        align-content: center;
+        
+    }
+
+    .flex-container div{
+        display: flex;
+        flex: 1;
+        margin-right: 0px;
+     
+    } 
+
+    
+}
 
