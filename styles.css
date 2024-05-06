@@ -102,10 +102,25 @@ a:active{
         height: 90%;
         width: 90%;
         margin-left: 0px;
+        
+        ;
        
         
     
     }
+
+  .mobilepage{
+        margin-left: 52px;
+        
+    }
+
+    .flex-container title{
+        margin-left: 80px;
+        color: blue;
+        
+    }
+
+
     
     .mainlogo{
         display: block;
@@ -119,6 +134,8 @@ a:active{
         
     }
 
+  
+
     .flex-container div{
         display: flex;
         flex: 1;
@@ -126,6 +143,25 @@ a:active{
      
     } 
 
+    .flex-container{
+        display: flex;
+        margin-right: auto;
+        align-items: center;
+        column-gap: 60px;
+        flex-grow: 1;
+        flex-direction: column;
+        color: rgb(228, 245, 0);
+       }
+
+
+       p {
+        color: rgb(228, 245, 0);
+        text-transform: capitalize;
+        padding-top: 20px;
+        font-size: large;
+        margin-right: auto;
+    
+    }
     
 }
 
