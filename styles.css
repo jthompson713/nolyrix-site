@@ -13,13 +13,14 @@ p {
 
 }
 
-.mainlogo{
-    display: block;
-    margin-top: 175px;
-    margin-left: auto;
-    margin-right: auto;
-    
+body{
+
+    text-align: center;
+    font-size: x-large;
+
+
 }
+
 
 a{
     padding-top: 0px;
@@ -28,7 +29,6 @@ a{
  
     
 }
-
 
 
 a:hover{
@@ -45,50 +45,41 @@ a:active{
 .flex-container{
     display: flex;
     align-items: center;
-    column-gap: 60px;
     flex-grow: 1;
     flex-direction: column;
     color: rgb(228, 245, 0);
+    margin-bottom: 100px;
    }
 
-.flex-container div{
-    display: flex;
-    flex: 1;
- 
-} 
+.flex-container img{
+    margin-left: 80px;
+}
 
-.flex-container a{
-    display: flex;
+@media only screen and (max-width:414px){
+  
+    a{
+        font-size: large;
+       
+    }
+
+    .flex-container{
+        margin-right: 70px;
+    }
+
+    img{
+
+        height: 350px;
+        width: 350px;
+        margin-left: 80px;
+    }
+
+    h1{
+        font-size: xx-large;
+        margin-left: 32px;
+    }
+
 
 }
 
 
-
-.two {
-   
-    display: flex;
-    justify-content:center;
-    
-}
-
-.three{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.four{
-    justify-content:center;
-    display: flex;
-    padding-bottom: 200px;
-}
-
-
-body{
-    text-align: center;
-    font-size: x-large;
-
-
-}
 
