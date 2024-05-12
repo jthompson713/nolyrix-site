@@ -93,12 +93,12 @@ a:active{
        
     }
 
-    ul{
+   ul{
         padding-right: 30px;
 
 
     }
-
+ 
 
    .mobilepage{
     font-size: small;
@@ -118,7 +118,7 @@ a:active{
 
         height: 350px;
         width: 350px;
-        margin-right: 20px;
+       
     }
 
     .flex-container{
