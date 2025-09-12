@@ -1,0 +1,144 @@
+html{
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: small;
+    
+}
+
+body{
+    text-align: center;
+    font-size: x-large;
+    height: 100vh;
+    
+
+}
+
+
+p {
+    color: rgb(228, 245, 0);
+    text-transform: capitalize;
+    font-size: x-large;
+
+}
+
+body{
+
+    text-align: center;
+    font-size: x-large;
+
+
+}
+
+
+a{
+    padding-top: 0px;
+    color: rgb(228, 245, 0);
+    text-decoration: none;
+    
+ 
+    
+}
+
+
+a:hover{
+    color: rgb(170, 170, 0);
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(48, 46, 0);
+    text-decoration: underline;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(228, 245, 0);
+    padding-top: 60px;
+    margin-bottom: 100px;
+    padding-bottom: 200px;
+   }
+
+.flex-container img{
+   /* margin-left: 80px;*/
+   justify-content: center;
+   margin-left: 30px;
+}
+
+@media only screen and (max-width:414px){
+  
+   
+    html{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+
+    /*h1{
+        margin-left: 25px;
+        
+    }*/
+
+
+    p{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: large;
+    }
+
+
+    a{
+        font-size: medium;
+       
+    }
+
+   ul{
+        padding-right: 30px;
+
+
+    }
+ 
+
+   .mobilepage{
+    font-size: small;
+    padding-top: 10px;
+   }
+
+   .mobilepage text p{
+    font-size: small;
+    margin-bottom: 50px;
+    padding-top: 20px;
+
+   }
+
+
+
+    img{
+
+        height: 350px;
+        width: 350px;
+       
+    }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+   
+
+    iframe{
+        max-width: 350px;
+    }
+
+}
+
+
+
