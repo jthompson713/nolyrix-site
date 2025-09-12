@@ -1,2 +1,2 @@
-# nolrix-site
+# nolyrix-site
 Website source code
